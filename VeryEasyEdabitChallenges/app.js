@@ -1,0 +1,4 @@
+// 1. Return the Sum of Two Numbers
+function sumTwoNumbers(num1, num2) {
+    return num1 + num2;
+}
