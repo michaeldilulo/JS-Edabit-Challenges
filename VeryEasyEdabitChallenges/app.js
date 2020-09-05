@@ -9,3 +9,15 @@ function sumTwoNumbers(a, b) {
     }
     return a + b;
 }
+
+// 2. Function that converts minutes into seconds
+function convertToSeconds(minutes) {
+    if (typeof minutes !== "number") {
+        return "Please input a number";
+    }
+    return minutes * 60;
+}
+
+function convertToSeconds(minutes) {
+    return minutes * 60;
+}
