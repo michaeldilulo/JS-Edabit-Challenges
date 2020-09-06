@@ -21,3 +21,11 @@ function convertToSeconds(minutes) {
 function convertToSeconds(minutes) {
     return minutes * 60;
 }
+
+// 3. Return the next number from an integer passed
+function nextNumber(number) {
+    if (typeof number !== "number") {
+        return "Please pass in a number"
+    }
+    return number + 1;
+}
