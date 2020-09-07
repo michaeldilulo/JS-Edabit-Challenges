@@ -29,3 +29,19 @@ function nextNumber(number) {
     }
     return number + 1;
 }
+
+// 4. Area of a triangle
+function areaTriangle(base, height) {
+    var triangleArea = base * height / 2;
+    if (typeof base !== "number" || typeof height !== "number") {
+        return "You need to pass in a number to find the area"
+    }
+    return triangleArea;
+}
+
+function areaTriangle(base, height) {
+    if (typeof base !== "number" || typeof height !== "number") {
+        return "Please ensure the inputs are numbers"
+    }
+    return base * height / 2;
+}
