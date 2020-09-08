@@ -45,3 +45,8 @@ function areaTriangle(base, height) {
     }
     return base * height / 2;
 }
+
+// 5. Return something to me
+function returnSomething(str) {
+    return "something " + '' + str;
+}
