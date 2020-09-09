@@ -50,3 +50,20 @@ function areaTriangle(base, height) {
 function returnSomething(str) {
     return "something " + '' + str;
 }
+
+//6. Convert hours into seconds
+function secondConvert(num) {
+    if (typeof num !== "number") {
+        return "please input a number"
+    }
+    return num * 3600;
+}
+
+function secondsConverter(hours) {
+    if (typeof hours !== "number") {
+        return "Please input a number"
+    } else if (hours > 24) {
+        return "Please input a number between 1 and 24"
+    }
+    return hours * 3600;
+}
