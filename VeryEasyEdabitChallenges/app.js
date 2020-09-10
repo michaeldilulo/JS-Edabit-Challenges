@@ -51,7 +51,7 @@ function returnSomething(str) {
     return "something " + '' + str;
 }
 
-//6. Convert hours into seconds
+// 6. Convert hours into seconds
 function secondConvert(num) {
     if (typeof num !== "number") {
         return "please input a number"
@@ -66,4 +66,17 @@ function secondsConverter(hours) {
         return "Please input a number between 1 and 24"
     }
     return hours * 3600;
+}
+
+// 7. Return first element in an array
+function firstElementArray(array) {
+    var newArray = array;
+    for (let i = 0; i < array.length; i++) {
+    }
+    return newArray[0];
+}
+
+function firstElementArray(array) {
+    var newArray = array;
+    return newArray[0];
 }
