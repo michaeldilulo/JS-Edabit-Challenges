@@ -80,3 +80,13 @@ function firstElementArray(array) {
     var newArray = array;
     return newArray[0];
 }
+
+//8. Max Edge of a Triangle
+function maxEdgeOfTriangle(side1, side2) {
+    if (typeof side1 && typeof side2 !== "number") {
+        return "Please input a number"
+    } else if (side1 && side2 < 0) {
+        return "Please input a number greater than 0"
+    }
+    return side1 + side2 - 1;
+}
