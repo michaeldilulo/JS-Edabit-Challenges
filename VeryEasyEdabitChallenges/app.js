@@ -90,3 +90,8 @@ function maxEdgeOfTriangle(side1, side2) {
     }
     return side1 + side2 - 1;
 }
+
+// 9. Remainder of Two numbers 
+function remainderTwoNums(a, b) {
+    return a % b;
+}
