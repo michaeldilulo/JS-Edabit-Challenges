@@ -95,3 +95,14 @@ function maxEdgeOfTriangle(side1, side2) {
 function remainderTwoNums(a, b) {
     return a % b;
 }
+
+//.10 Find the Perimeter of a Triangle
+function perimeterOfTriangle(length, width) {
+    if (typeof length && typeof width !== "number") {
+        return "Please input a number "
+    } else if (length && width <= 0) {
+        return "Please input a number that is greater than 0"
+    } else {
+        return (length + width) * 2;
+    }
+}
