@@ -128,3 +128,18 @@ function squared(b) {
         Math.pow(10, 2)
     }
 }
+
+//12. Is the Number Less than or Equal to 0?
+function lessThanEqualToZero(num) {
+    if (typeof num !== "number") {
+        return "You need to input a number like yesterday"
+    } else if (num <= 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function lessThanEqualToZero(num) {
+    return num <= 0 ? true : false;
+}
