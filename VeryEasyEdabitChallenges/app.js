@@ -106,3 +106,25 @@ function perimeterOfTriangle(length, width) {
         return (length + width) * 2;
     }
 }
+
+//11. Correct the mistakes
+//Before mistakes were corrected
+// function squaed(b) {
+//     return a * a
+// }
+
+function squared(a) {
+    if (typeof a !== "number") {
+        return "You need to input a number"
+    } else {
+        return a * a;
+    }
+}
+
+function squared(b) {
+    if (typeof b !== "number") {
+        return "Please input a number"
+    } else {
+        Math.pow(10, 2)
+    }
+}
