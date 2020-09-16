@@ -143,3 +143,12 @@ function lessThanEqualToZero(num) {
 function lessThanEqualToZero(num) {
     return num <= 0 ? true : false;
 }
+
+//13. Using the "&&" Operator
+function andOperator(a, b) {
+    if (a === true && b === true) {
+        return true;
+    } else {
+        return false;
+    }
+}
