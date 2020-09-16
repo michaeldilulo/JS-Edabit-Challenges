@@ -152,3 +152,27 @@ function andOperator(a, b) {
         return false;
     }
 }
+
+//14. Less than 100?
+
+function sumLessThan100(num1, num2) {
+    return num1 + num2 < 100 ? true : false;
+}
+
+function sumLessThan100(num1, num2) {
+    if (num1 + num2 < 100) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function sumLessThan100(num1, num2) {
+    if (typeof num1 && typeof num2 !== "number") {
+        return "Please input a number"
+    } else if (num1 + num2 < 100) {
+        return true;
+    } else {
+        return false;
+    }
+}
