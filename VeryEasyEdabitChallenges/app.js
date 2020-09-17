@@ -176,3 +176,11 @@ function sumLessThan100(num1, num2) {
         return false;
     }
 }
+
+//15. Football Points
+function footballPoints(wins, draws, losses) {
+    var gameWins = wins * 3;
+    var gameDraws = draws * 1;
+    var gameLoss = losses * 0;
+    return gameWins + gameDraws + gameLoss;
+}
