@@ -184,3 +184,8 @@ function footballPoints(wins, draws, losses) {
     var gameLoss = losses * 0;
     return gameWins + gameDraws + gameLoss;
 }
+
+//16. Are the numbers equal?
+function isSameNum(num1, num2) {
+    return num1 === num2 ? true : false;
+}
