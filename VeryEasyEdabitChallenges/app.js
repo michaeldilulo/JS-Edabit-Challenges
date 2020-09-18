@@ -189,3 +189,11 @@ function footballPoints(wins, draws, losses) {
 function isSameNum(num1, num2) {
     return num1 === num2 ? true : false;
 }
+
+//17. Farm Problem 
+function animalLegs(chickens, cows, pigs) {
+    var farmChickens = chickens * 2;
+    var farmCows = cows * 4;
+    var farmPigs = pigs * 4;
+    return farmChickens + farmCows + farmPigs;
+}
