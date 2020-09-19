@@ -197,3 +197,10 @@ function animalLegs(chickens, cows, pigs) {
     var farmPigs = pigs * 4;
     return farmChickens + farmCows + farmPigs;
 }
+
+//18. Convert Hours and minutes into seconds
+function secondsConverter(hours, minutes) {
+    var hoursConverted = hours * 60 * 60;
+    var minutesConverted = minutes * 60;
+    return hoursConverted + minutesConverted;
+}
