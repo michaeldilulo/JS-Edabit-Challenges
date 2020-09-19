@@ -204,3 +204,8 @@ function secondsConverter(hours, minutes) {
     var minutesConverted = minutes * 60;
     return hoursConverted + minutesConverted;
 }
+
+// 19. Equality Check 
+function equalityCheck(a, b) {
+    return a === b ? true : false;
+}
