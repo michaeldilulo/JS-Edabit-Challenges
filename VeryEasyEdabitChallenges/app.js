@@ -214,3 +214,15 @@ function equalityCheck(a, b) {
 function profitableGamble(prob, prize, pay) {
     return prob * prize > pay ? true : false;
 }
+
+// 21. Buggy Code
+// example:
+// Problem had variable and parameter wrong and needed 
+// a false statement for the else if
+function has_bugs(buggyCode) {
+    if (buggyCode) {
+        return 'sad days'
+    } else if (!buggyCode) {
+        return "it's a good day"
+    }
+}
