@@ -209,3 +209,8 @@ function secondsConverter(hours, minutes) {
 function equalityCheck(a, b) {
     return a === b ? true : false;
 }
+
+// 20. Profitable Gamble
+function profitableGamble(prob, prize, pay) {
+    return prob * prize > pay ? true : false;
+}
