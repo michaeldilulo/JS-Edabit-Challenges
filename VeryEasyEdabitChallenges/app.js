@@ -226,3 +226,16 @@ function has_bugs(buggyCode) {
         return "it's a good day"
     }
 }
+
+// 22. Math.abs()
+function absoluteNumber(num) {
+    return num < 0 ? (num * -1) : num;
+}
+
+function absoluteNumber(num) {
+    if (num < 0) {
+        return num * -1
+    } else {
+        return num;
+    }
+}
