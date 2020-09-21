@@ -249,3 +249,8 @@ function framesPerSecond(minutes, fps) {
 function getVoteCount(votes) {
     return votes.upvotes - votes.downvotes;
 }
+
+// 25. Is the string empty?
+function stringEmpty(string) {
+    return string === "" ? true : false;
+}
