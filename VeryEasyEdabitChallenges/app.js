@@ -244,3 +244,8 @@ function absoluteNumber(num) {
 function framesPerSecond(minutes, fps) {
     return minutes * 60 * fps;
 }
+
+//24. Upvotes vs downvotes (Working with objects)
+function getVoteCount(votes) {
+    return votes.upvotes - votes.downvotes;
+}
