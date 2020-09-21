@@ -239,3 +239,8 @@ function absoluteNumber(num) {
         return num;
     }
 }
+
+// 23. Frames Per Second
+function framesPerSecond(minutes, fps) {
+    return minutes * 60 * fps;
+}
