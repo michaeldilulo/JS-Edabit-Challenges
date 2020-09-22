@@ -254,3 +254,8 @@ function getVoteCount(votes) {
 function stringEmpty(string) {
     return string === "" ? true : false;
 }
+
+// 25. Compare Strings by character count
+function compareStrings(string1, string2) {
+    return string1.length === string2.length ? true : false;
+}
