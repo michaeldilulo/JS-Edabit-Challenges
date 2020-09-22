@@ -259,3 +259,20 @@ function stringEmpty(string) {
 function compareStrings(string1, string2) {
     return string1.length === string2.length ? true : false;
 }
+
+// 26. Evenly Divisible by 5
+const divisibleFive = num => {
+    return num % 5 ? false : true;
+}
+
+function divisibleByFive(number) {
+    return number % 5 ? false : true;
+}
+
+function divisibleByFive(number) {
+    if (number % 5) {
+        return true
+    } else {
+        return false;
+    }
+}
