@@ -276,3 +276,17 @@ function divisibleByFive(number) {
         return false;
     }
 }
+
+// 27. Length of a String (non recursive & recursive)
+function lengthOfString(string) {
+    return string.length;
+}
+
+function strLen(string, count) {
+    count = count || 0;
+    if (string.length) {
+        return strLen(string.substr(1), ++count);
+    } else {
+        return count;
+    }
+}
