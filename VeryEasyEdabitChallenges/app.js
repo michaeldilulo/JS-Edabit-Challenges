@@ -369,3 +369,8 @@ function returnLast(array) {
     var lastElement = array.pop()
     return lastElement;
 }
+
+// 30. Flip the boolean
+function flipBoolean(boolean) {
+    return !boolean ? 1 : 0;
+}
