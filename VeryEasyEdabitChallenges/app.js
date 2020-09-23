@@ -308,3 +308,8 @@ function multipleOfHundred(number) {
 function dividesEvenly(number1, number2) {
     return number1 % number2 === 0 ? true : false;
 }
+
+// 30. Return a string as an integer
+function stringIntoInteger(string) {
+    return parseInt(string);
+}
