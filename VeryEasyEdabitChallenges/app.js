@@ -338,3 +338,8 @@ function shouldServeDrinks(age, onBreak) {
         return false;
     }
 }
+
+// 34. Concatenate First and Last Name into One String
+function concatenateString(firstName, lastName) {
+    return lastName + ", " + firstName;
+}
