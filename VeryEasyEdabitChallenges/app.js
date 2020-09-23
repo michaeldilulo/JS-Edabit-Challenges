@@ -353,3 +353,8 @@ function movieTheatreAttendance(age, isSupervised) {
 function reverseArray(array) {
     return array.reverse();
 }
+
+// 37. Using Ternary Operators
+function yeahNope(bool) {
+    return bool === true ? "yeah" : "nope"
+}
