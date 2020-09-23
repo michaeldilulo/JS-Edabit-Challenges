@@ -348,3 +348,8 @@ function concatenateString(firstName, lastName) {
 function movieTheatreAttendance(age, isSupervised) {
     return age >= 15 || isSupervised === true ? true : false;
 }
+
+// 36. Reverse an Array
+function reverseArray(array) {
+    return array.reverse();
+}
