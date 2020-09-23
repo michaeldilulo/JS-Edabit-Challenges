@@ -363,3 +363,9 @@ function yeahNope(bool) {
 function convertArrToString(array) {
     return array.join("");
 }
+
+// 39. Return the last element in an array
+function returnLast(array) {
+    var lastElement = array.pop()
+    return lastElement;
+}
