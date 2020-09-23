@@ -343,3 +343,8 @@ function shouldServeDrinks(age, onBreak) {
 function concatenateString(firstName, lastName) {
     return lastName + ", " + firstName;
 }
+
+// 35. Movie Theatre Attendance
+function movieTheatreAttendance(age, isSupervised) {
+    return age >= 15 || isSupervised === true ? true : false;
+}
