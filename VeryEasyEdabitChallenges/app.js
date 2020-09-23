@@ -290,3 +290,16 @@ function strLen(string, count) {
         return count;
     }
 }
+
+// 28. Multiple of 100
+function multipleOfHundred(number) {
+    return number % 100 ? false : true;
+}
+
+function multipleOfHundred(number) {
+    if (number / 100 == 0) {
+        return true;
+    } else {
+        return false;
+    }
+} 
