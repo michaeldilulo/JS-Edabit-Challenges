@@ -370,7 +370,16 @@ function returnLast(array) {
     return lastElement;
 }
 
-// 30. Flip the boolean
+// 40. Flip the boolean
 function flipBoolean(boolean) {
     return !boolean ? 1 : 0;
+}
+
+// 41. Is the Number Odd or Even?
+function oddOrEven(number) {
+    if (number % 2 === 0) {
+        return "even"
+    } else {
+        return "odd"
+    }
 }
