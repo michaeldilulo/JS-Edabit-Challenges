@@ -383,3 +383,6 @@ function oddOrEven(number) {
         return "odd"
     }
 }
+
+// 42. Name Greeting!
+const nameGreeting = string => "Hello " + string + "!";
