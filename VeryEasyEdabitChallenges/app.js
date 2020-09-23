@@ -325,3 +325,16 @@ function solveEquation(equation) {
 function evaluateEquation(equation) {
     return eval(equation);
 }
+
+// 33. Drinks Allowed?
+function drinksAllowed(age, onBreak) {
+    return age >= 18 && onBreak === false ? true : false;
+}
+
+function shouldServeDrinks(age, onBreak) {
+    if (age >= 18 && onBreak === false) {
+        return true;
+    } else {
+        return false;
+    }
+}
