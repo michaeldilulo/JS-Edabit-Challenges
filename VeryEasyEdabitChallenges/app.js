@@ -313,3 +313,9 @@ function dividesEvenly(number1, number2) {
 function stringIntoInteger(string) {
     return parseInt(string);
 }
+
+// 31. Solve the Equation
+//! If you use Eval be very careful, its risky. Refrain from using it if possible
+function solveEquation(equation) {
+    return eval(equation);
+}
