@@ -319,3 +319,9 @@ function stringIntoInteger(string) {
 function solveEquation(equation) {
     return eval(equation);
 }
+
+// 32. Evaluate an Equation
+//! If you use Eval be very careful, its risky. Refrain from using it if possible
+function evaluateEquation(equation) {
+    return eval(equation);
+}
