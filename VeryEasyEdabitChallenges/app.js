@@ -358,3 +358,8 @@ function reverseArray(array) {
 function yeahNope(bool) {
     return bool === true ? "yeah" : "nope"
 }
+
+// 38. Convert an Array to a String
+function convertArrToString(array) {
+    return array.join("");
+}
