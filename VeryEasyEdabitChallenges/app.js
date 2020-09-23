@@ -302,4 +302,9 @@ function multipleOfHundred(number) {
     } else {
         return false;
     }
-} 
+}
+
+// 29. Divides Evenly
+function dividesEvenly(number1, number2) {
+    return number1 % number2 === 0 ? true : false;
+}
