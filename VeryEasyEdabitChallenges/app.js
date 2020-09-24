@@ -400,3 +400,8 @@ function triParallel(base, height, shape) {
         return base * height;
     }
 }
+
+// 45. To the power of ______
+function powerOf(number, exponent) {
+    return Math.pow(number, exponent);
+}
