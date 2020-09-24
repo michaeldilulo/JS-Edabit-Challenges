@@ -386,3 +386,8 @@ function oddOrEven(number) {
 
 // 42. Name Greeting!
 const nameGreeting = string => "Hello " + string + "!";
+
+// 43. ES6 Destructing Arrays 1
+const array = [1, 2, 3, 4, 5];
+let a = array[0];
+let b = array[1];
