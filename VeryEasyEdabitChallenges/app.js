@@ -391,3 +391,12 @@ const nameGreeting = string => "Hello " + string + "!";
 const array = [1, 2, 3, 4, 5];
 let a = array[0];
 let b = array[1];
+
+// 44. Triangle and Parallelogram Area Finder
+function triParallel(base, height, shape) {
+    if (shape === 'triangle') {
+        return 0.5 * base * height;
+    } else {
+        return base * height;
+    }
+}
