@@ -453,3 +453,8 @@ function stringOddOrEvenChars(string) {
         return false;
     }
 }
+
+// 51.Check if an array contains a given number
+function arrayContainsElement(array, element) {
+    return array.includes(element) ? true : false;
+}
