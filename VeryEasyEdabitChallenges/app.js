@@ -419,3 +419,8 @@ function evenNumber(number) {
 function evenNumber(number) {
     return number % 2 === 0 ? true : false;
 }
+
+// 47. Word without first character 
+function wordWithoutFirst(string) {
+    return string.substring(1);
+}
