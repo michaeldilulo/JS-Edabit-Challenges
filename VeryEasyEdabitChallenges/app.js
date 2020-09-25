@@ -424,3 +424,17 @@ function evenNumber(number) {
 function wordWithoutFirst(string) {
     return string.substring(1);
 }
+
+// 48. Minimal 2 Boolean Redundancy
+//rewritten
+function oddOrEven(number) {
+    if (number % 2 === 0) {
+        return "even"
+    } else {
+        return "odd"
+    }
+}
+
+function oddOrEven(number) {
+    return number % 2 === 0 ? "even" : "odd"
+}
