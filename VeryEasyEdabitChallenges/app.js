@@ -438,3 +438,18 @@ function oddOrEven(number) {
 function oddOrEven(number) {
     return number % 2 === 0 ? "even" : "odd"
 }
+
+// 49. Fix the error: Check whether a given number is 
+// odd
+function isOdd(number) {
+    return number % 2 === 0 ? false : true;
+}
+
+// 50. Is the string odd or even
+function stringOddOrEvenChars(string) {
+    if (string.length % 2 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
