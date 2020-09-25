@@ -405,3 +405,17 @@ function triParallel(base, height, shape) {
 function powerOf(number, exponent) {
     return Math.pow(number, exponent);
 }
+
+// 46. Minimal 1 (If else if Boolean)
+// rewritten
+function evenNumber(number) {
+    if (number % 2 === 0) {
+        return true
+    } else {
+        return false;
+    }
+}
+
+function evenNumber(number) {
+    return number % 2 === 0 ? true : false;
+}
