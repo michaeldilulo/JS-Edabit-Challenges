@@ -482,3 +482,39 @@ function AND(a, b) {
 function OR(a, b) {
     return a || b;
 }
+
+// Word Numbers
+function wordNumbers(string) {
+    switch (string) {
+        case "zero":
+            string = 0;
+            break;
+        case "one":
+            string = 1;
+            break;
+        case "two":
+            string = 2;
+            break;
+        case "three":
+            string = 3;
+            break;
+        case "four":
+            string = 4;
+            break;
+        case "five":
+            string = 5;
+            break;
+        case "six":
+            string = 6;
+            break;
+        case "seven":
+            string = 7;
+            break;
+        case "eight":
+            string = 8;
+            break;
+        case "nine":
+            string = 9;
+    }
+    return string;
+}
