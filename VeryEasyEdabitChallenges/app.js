@@ -483,7 +483,7 @@ function OR(a, b) {
     return a || b;
 }
 
-// Word Numbers
+// 54. Word Numbers
 function wordNumbers(string) {
     switch (string) {
         case "zero":
@@ -517,4 +517,13 @@ function wordNumbers(string) {
             string = 9;
     }
     return string;
+}
+
+// 55. Find the Index
+function findIndex(array, string) {
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] === string) {
+        }
+        return array.indexOf(string);
+    }
 }
