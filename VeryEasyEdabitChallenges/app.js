@@ -458,3 +458,8 @@ function stringOddOrEvenChars(string) {
 function arrayContainsElement(array, element) {
     return array.includes(element) ? true : false;
 }
+
+// 52. Power Calculator
+function powerCalculator(voltage, current) {
+    return voltage * current;
+}
