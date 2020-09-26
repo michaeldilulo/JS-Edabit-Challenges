@@ -527,3 +527,8 @@ function findIndex(array, string) {
         return array.indexOf(string);
     }
 }
+
+// 56. Concatenating Two Integer Arrays
+function concatIntArrays(array1, array2) {
+    return array1.concat(array2);
+}
