@@ -532,3 +532,12 @@ function findIndex(array, string) {
 function concatIntArrays(array1, array2) {
     return array1.concat(array2);
 }
+
+// 57. Find the Index Part 1
+function findIndexInt(array, number) {
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] === number) {
+        }
+        return array.indexOf(number)
+    }
+}
