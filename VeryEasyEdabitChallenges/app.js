@@ -463,3 +463,22 @@ function arrayContainsElement(array, element) {
 function powerCalculator(voltage, current) {
     return voltage * current;
 }
+
+// 53. AND, OR and NOT
+function NOT(n) {
+    if (n === 0) {
+        return n + 1;
+    } else if (n === 1) {
+        return n - 1
+    } else {
+        return n;
+    }
+}
+
+function AND(a, b) {
+    return a && b;
+}
+
+function OR(a, b) {
+    return a || b;
+}
