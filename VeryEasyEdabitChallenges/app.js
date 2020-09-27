@@ -550,3 +550,8 @@ function lengthString(string) {
     }
     return length;
 }
+
+// 59. Stack the boxes
+function stackBoxes(number) {
+    return number * number;
+} 
