@@ -541,3 +541,12 @@ function findIndexInt(array, number) {
         return array.indexOf(number)
     }
 }
+
+// 58. Recreating the string.length property
+function lengthString(string) {
+    var length = 0;
+    for (let i = 0; i < string.length; i++) {
+        var length = length + 1;
+    }
+    return length;
+}
