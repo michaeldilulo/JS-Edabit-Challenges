@@ -554,4 +554,13 @@ function lengthString(string) {
 // 59. Stack the boxes
 function stackBoxes(number) {
     return number * number;
-} 
+}
+
+// 60. Check a string for spaces
+function checkStringSpaces(string) {
+    if (string.includes(" ")) {
+        return true;
+    } else {
+        return false;
+    }
+}
