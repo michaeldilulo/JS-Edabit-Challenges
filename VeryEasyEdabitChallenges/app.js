@@ -564,3 +564,10 @@ function checkStringSpaces(string) {
         return false;
     }
 }
+
+// 61. Minimal IV: if else if else Inferno
+function positiveBooleans(number) {
+    if (number === 0) return true;
+    if (number > 0) return "positive";
+    if (number < 0) return "negative";
+}
