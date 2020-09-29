@@ -617,3 +617,8 @@ function findTheIndex(array, index) {
 function onOffSwitches(number) {
     return Math.pow(2, number);
 }
+
+// 67. Kinetic Energy
+function kineticEnergy(mass, velocity) {
+    return Math.round((mass * 0.5) * Math.pow(velocity, 2));
+}
