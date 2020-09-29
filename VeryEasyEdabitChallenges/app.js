@@ -571,3 +571,28 @@ function positiveBooleans(number) {
     if (number > 0) return "positive";
     if (number < 0) return "negative";
 }
+
+// 62. Minimal VI : else if
+function areTrue(a, b) {
+    if (a === true && b === true) {
+        return "both"
+    } else if (a === true && b === false) {
+        return "first"
+    } else if (a === false && b === true) {
+        return "second"
+    } else {
+        return "neither"
+    }
+}
+
+// 63. Equilibrium : Conditionals
+function equilibrium(number) {
+    if (number > 0) {
+        return "positive"
+    } else if (number < 0) {
+        return "negative"
+    } else {
+        return true;
+    }
+}
+
