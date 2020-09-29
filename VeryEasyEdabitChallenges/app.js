@@ -612,3 +612,8 @@ function findTheIndex(array, index) {
         }
     }
 }
+
+//66. On / Off Switches
+function onOffSwitches(number) {
+    return Math.pow(2, number);
+}
