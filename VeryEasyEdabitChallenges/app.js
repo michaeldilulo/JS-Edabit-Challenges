@@ -622,3 +622,29 @@ function onOffSwitches(number) {
 function kineticEnergy(mass, velocity) {
     return Math.round((mass * 0.5) * Math.pow(velocity, 2));
 }
+
+//68. Find the bug, returning the container 
+function getContainer(product) {
+    let container
+    switch (product) {
+        case "Bread":
+            container = "bag"
+            break;
+        case "Beer":
+        case "Milk":
+            container = "bottle"
+            break
+        case "Cerials":
+            container = "box"
+            break
+        case "Eggs":
+            container = "carton"
+            break
+        case "Candy":
+            container = "plastic"
+            break;
+        case "Cheese":
+            container = null
+    }
+    return container
+}
