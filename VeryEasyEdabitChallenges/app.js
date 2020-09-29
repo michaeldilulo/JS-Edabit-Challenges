@@ -596,3 +596,8 @@ function equilibrium(number) {
     }
 }
 
+// 64. Pair Management
+function pairManagement(index1, index2) {
+    var newArray = [index1, index2];
+    return newArray;
+}
