@@ -601,3 +601,14 @@ function pairManagement(index1, index2) {
     var newArray = [index1, index2];
     return newArray;
 }
+
+// 65. Find the Index Part 2
+function findTheIndex(array, index) {
+    for (let i = 0; i < array.length; i++) {
+        if (array.includes(index)) {
+            return array.indexOf(index)
+        } else {
+            return -1
+        }
+    }
+}
