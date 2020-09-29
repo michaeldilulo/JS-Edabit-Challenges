@@ -648,3 +648,8 @@ function getContainer(product) {
     }
     return container
 }
+
+//69. Sides of Rubix Cube
+function sidesOfRubixCube(sides) {
+    return Math.pow(sides, 2) * 6;
+}
