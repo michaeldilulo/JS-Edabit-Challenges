@@ -658,3 +658,8 @@ function sidesOfRubixCube(sides) {
 function intToString(number) {
     return number.toString();
 }
+
+// 71. String to integer
+function stringToInteger(string) {
+    return parseInt(string, 10);
+}
