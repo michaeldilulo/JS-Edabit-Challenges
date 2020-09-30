@@ -653,3 +653,8 @@ function getContainer(product) {
 function sidesOfRubixCube(sides) {
     return Math.pow(sides, 2) * 6;
 }
+
+// 70. Integer to string
+function intToString(number) {
+    return number.toString();
+}
