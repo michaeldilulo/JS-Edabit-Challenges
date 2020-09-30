@@ -660,6 +660,13 @@ function intToString(number) {
 }
 
 // 71. String to integer
-function stringToInteger(string) {
-    return parseInt(string, 10);
+function stringToInteger(number) {
+    return parseInt(number, 10);
+}
+
+// 72. Last character in a string an "n"
+function isLastCharacterN(word) {
+    var myString = word;
+    var stringLength = word.length;
+    return myString.charAt(stringLength - 1) === "n" ? true : false;
 }
