@@ -676,3 +676,8 @@ function isLastCharacterN(word) {
 function lessThanGreaterThan(number1, number2, array) {
     return array.filter(n => n > number1 && n < number2);
 }
+
+// 74. Number of Arguments
+function numberArguments() {
+    return arguments.length;
+}
