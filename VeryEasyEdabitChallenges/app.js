@@ -670,3 +670,9 @@ function isLastCharacterN(word) {
     var stringLength = word.length;
     return myString.charAt(stringLength - 1) === "n" ? true : false;
 }
+
+
+// 73. Less Than Greater Than
+function lessThanGreaterThan(number1, number2, array) {
+    return array.filter(n => n > number1 && n < number2);
+}
