@@ -690,3 +690,8 @@ function inchesToFeet(inches) {
         return inches / 12;
     }
 }
+
+// 76. Return the Total Number of Parameters
+function numberArgs(a, b) {
+    return arguments.length;
+}
