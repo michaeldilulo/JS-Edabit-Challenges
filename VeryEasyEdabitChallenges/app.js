@@ -681,3 +681,12 @@ function lessThanGreaterThan(number1, number2, array) {
 function numberArguments() {
     return arguments.length;
 }
+
+// 75. Inches to Feet
+function inchesToFeet(inches) {
+    if (inches < 12) {
+        return 0;
+    } else {
+        return inches / 12;
+    }
+}
