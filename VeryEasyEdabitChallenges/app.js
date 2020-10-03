@@ -695,3 +695,11 @@ function inchesToFeet(inches) {
 function numberArgs(a, b) {
     return arguments.length;
 }
+
+// 77. Fix The Bug: Sample List Manipulation
+function incrementItems(arr) {
+    for (let i = 0; i < arr.length; i++) {
+        arr[i]++;
+    }
+    return arr;
+}
