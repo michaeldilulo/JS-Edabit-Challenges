@@ -703,3 +703,14 @@ function incrementItems(arr) {
     }
     return arr;
 }
+
+// 78. Sum of array of numbers
+let newArray = [1, 2, 3];
+
+const sumArray = () => {
+    let totalArray = 0;
+    for (let i = 0; i < newArray.length; i++) {
+        totalArray += newArray[i];
+    }
+    return totalArray;
+}
