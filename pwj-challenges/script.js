@@ -119,16 +119,21 @@ function sortMovieRatings(newArray) {
     // loop that runs on the outside
     for (let j = 0; j < newArray.length - 1; j++) {
 
+        // Prior to a second loop.. movieRatingArray[0]
         let highestNumber = movieRatingArray[j];
+        // Prior to second loop.. topLocation = i;
         let topLocation = j;
 
+        // Prior to adding a second loop.. let i = 0;
         for (let i = j; i < newArray.length; i++) {
             if (newArray[i] > highestNumber) {
                 highestNumber = newArray[i]
                 topLocation = i;
             }
         }
+        // Prior to second loop.. newArray[0]
         newArray[topLocation] = newArray[j]
+        // Prior to second loop.. newArray[0]
         newArray[j] = highestNumber
     }
 
