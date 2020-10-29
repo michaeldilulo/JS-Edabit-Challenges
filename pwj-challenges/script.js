@@ -83,3 +83,19 @@ function minMax(array) {
 }
 
 console.log("Minimum number Array", minMax(minMaxArray))
+
+// Find Maximum Number in Array
+
+let minMaxTwoArray = [1, 2, 10, 3, 88, 65, 5, 7, 11]
+let maximum = minMaxTwoArray[0]
+
+function minMaxFindMax(array) {
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] > maximum) {
+            maximum = array[i]
+        }
+    }
+    return maximum
+}
+
+console.log("Maximum Number Array", minMaxFindMax(minMaxTwoArray))
