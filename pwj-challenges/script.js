@@ -99,3 +99,40 @@ function minMaxFindMax(array) {
 }
 
 console.log("Maximum Number Array", minMaxFindMax(minMaxTwoArray))
+
+// Sort Numbers in an IMDB database
+
+// Array Sorting
+// Find the highest number
+// Start the loop at index 1
+// Find the Max from Remaining List
+// Find the Location of the max number
+// Find the new Max Rating and Find its Location
+// Swap the first number with the highest number
+// Need to run an outer loop 
+
+console.log("BELOW IS THE CODE");
+
+let movieRatingArray = [1, 3, 5, 7, 9, 10, 2, 4, 6, 8]
+
+function sortMovieRatings(newArray) {
+    // loop that runs on the outside
+    for (let j = 0; j < newArray.length - 1; j++) {
+
+        let highestNumber = movieRatingArray[j];
+        let topLocation = j;
+
+        for (let i = j; i < newArray.length; i++) {
+            if (newArray[i] > highestNumber) {
+                highestNumber = newArray[i]
+                topLocation = i;
+            }
+        }
+        newArray[topLocation] = newArray[j]
+        newArray[j] = highestNumber
+    }
+
+    return newArray;
+}
+
+console.log("Movie Rating Sort", sortMovieRatings(movieRatingArray))
