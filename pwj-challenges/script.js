@@ -71,3 +71,15 @@ function stringEmpty(string) {
 
 console.log("String Empty", stringEmpty("Hello World"))
 console.log("String Empty", stringEmpty(""))
+
+// Find Minimun Number in array
+
+let minMaxArray = [7, 15, 5, 6, 8, 15, 30, 500]
+
+function minMax(array) {
+    for (let i = 0; i < array.length; i++) {
+        return Math.min(...array)
+    }
+}
+
+console.log("Minimum number Array", minMax(minMaxArray))
