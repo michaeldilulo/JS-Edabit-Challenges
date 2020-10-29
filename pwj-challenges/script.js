@@ -62,3 +62,12 @@ console.log("Movie Rating", goodOrBad(5, "Little House on the Prairie"))
 console.log("Movie Rating", goodOrBad(10, "Scooby Doo"))
 console.log("Movie Rating", goodOrBad(7, "Shawshank Redemption"))
 console.log("Movie Rating", goodOrBad(2, "The Village"))
+
+// Check if a string is empty
+
+function stringEmpty(string) {
+    return string === "" ? true : false;
+}
+
+console.log("String Empty", stringEmpty("Hello World"))
+console.log("String Empty", stringEmpty(""))
