@@ -21,13 +21,22 @@ function ageInSeconds(age) {
     // let age = 30
     // multiply it by 365 to get how many days ive been alive
     // age * 365 = 730
-    // 60 seconds in a minute
-    // sum of 730 * 24 * 60 * 60 = seconds alive
-    // 60 minutes in an hour 
-    // sum of 730 * 24 * 60
     // 24 hours in a day
     // 730 * 24
+    // 60 minutes in an hour 
+    // sum of 730 * 24 * 60
+    // 60 seconds in a minute
+    // sum of 730 * 24 * 60 * 60 = seconds alive
     return age * 365 * 24 * 60 * 60;
 }
 
-console.log("Age In Seconds", ageInSeconds(25));
+console.log("Age In Seconds", ageInSeconds(30));
+
+// Return the first item in an array
+
+let array = [1, 2, 3, 4, 5]
+function firstItemInArray(array) {
+    return array[0];
+}
+
+console.log("First Item In Array", firstItemInArray(array))
