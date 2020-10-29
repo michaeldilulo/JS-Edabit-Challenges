@@ -40,3 +40,25 @@ function firstItemInArray(array) {
 }
 
 console.log("First Item In Array", firstItemInArray(array))
+
+
+// less than or equal to 7 Conditionals
+let goodMoviesArray = [];
+let badMoviesArray = [];
+let badMovieRating = 6;
+let goodMovieRating = 7;
+
+function goodOrBad(number, string) {
+    if (number <= badMovieRating) {
+        return badMoviesArray.push(string);
+    } else {
+        return goodMoviesArray.push(string)
+    }
+}
+
+console.log("Good Movies Array", goodMoviesArray)
+console.log("Bad Movies Array", badMoviesArray)
+console.log("Movie Rating", goodOrBad(5, "Little House on the Prairie"))
+console.log("Movie Rating", goodOrBad(10, "Scooby Doo"))
+console.log("Movie Rating", goodOrBad(7, "Shawshank Redemption"))
+console.log("Movie Rating", goodOrBad(2, "The Village"))
